@@ -1,3 +1,9 @@
+const int PUSH= 4;
+const int CHA = 3;
+const int CHB = 2;
+
+
+
 // SERIAL STUFF ////////////////////////////////////////////////////////
 bool bSendSerial = true;
 
@@ -34,6 +40,10 @@ void pushChanged(int state){
   if( !state )
   {
     if( bSendSerial) Serial.write('c');
+  }
+  else
+  {
+     if( bSendSerial) Serial.write('r');
   }
 }
 /*
