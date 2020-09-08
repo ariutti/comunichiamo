@@ -10,17 +10,6 @@
  * 1st LED strip GND    to Arduino GND;
  * 1st LED strip DATA   to Arduino digital pin 8 (through a 470 Ohm resistor);
  
- MODULE 1 CONNECTIONS:
- * 1st encoder CHA pin  to Arduino digital pin 2
- * 1st encoder CHB pin  to Arduino digital pin 3
- * 1st encoder PUSH pin to Arduino digital pin 4
-
-
- MODULE 2 CONNECTIONS:
- * 2nd encoder CHA pin to Arduino digital pin 5;
- * 2nd encoder CHB pin to Arduino digital pin 6;
- * 2nd encoder PUSH pin to Arduino digital pin 7;
-
  NOTE: place a 6,3V 1000 microF capacitor between LEDs GND and VCC rails;
  Place one 10K pullup resistor for each encoder pin;
 
